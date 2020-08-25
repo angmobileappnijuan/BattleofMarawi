@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "38637901442",
+    "firebase_url": "https://battleofmarawi-3a18a.firebaseio.com",
+    "project_id": "battleofmarawi-3a18a",
+    "storage_bucket": "battleofmarawi-3a18a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38637901442:android:15d9ffab9f96246f",
+        "android_client_info": {
+          "package_name": "com.gmail.angmobileappnijuan.battleofmarawi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38637901442-d1pm8d5lg7uj3ituep0lm9sr2053oms1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gmail.angmobileappnijuan.battleofmarawi",
+            "certificate_hash": "fe454cd8101573fb2be658caf756f97a3949b72c"
+          }
+        },
+        {
+          "client_id": "38637901442-29akc06jqb0mav5rcfu7tbq4lohrb3nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9HXfcr1DE0fuIDf3MqIWvH04UqtwlPKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38637901442-29akc06jqb0mav5rcfu7tbq4lohrb3nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

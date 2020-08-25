@@ -1,0 +1,4 @@
+include ':app'
+include ':Google Play License Library'
+include ':APK Expansion Zip Library'
+include ':Google Play Downloader Library'

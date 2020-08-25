@@ -1,0 +1,18 @@
+*.iml
+.gradle
+/local.properties
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Project exclude paths
+/APK Expansion Zip Library/build/
+/APK Expansion Zip Library/build/intermediates/javac/debug/classes/
+/Google Play Downloader Library/build/
+/Google Play Downloader Library/build/intermediates/javac/debug/classes/
+/Google Play License Library/build/
+/Google Play License Library/build/intermediates/javac/debug/classes/

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/a_a_splash"
+    tools:context=".a_intro.A_A_Splash">
+
+    <RelativeLayout
+        android:id="@+id/splash_relativelayout"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/orc_logo"
+            android:layout_centerInParent="true"
+            />
+
+        <TextView
+            android:id="@+id/statustext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="#FFFFFF"
+            />
+
+    </RelativeLayout>
+
+    <!-- DOWNLOAD PROGRESS -->
+    <RelativeLayout
+        android:id="@+id/downloadViewGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/downloadTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:lines="2"
+            android:padding="10dp"
+            android:text="Please Wait..." />
+
+        <ProgressBar
+            android:id="@+id/downloadProgressBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/downloadTextView"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/downloadProgressPercentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/downloadProgressBar"
+            android:layout_centerHorizontal="true"
+            android:lines="2"
+            android:padding="10dp"
+            tools:text="10%" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

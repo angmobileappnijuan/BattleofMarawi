@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_id"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pincode_background"
+    tools:context=".b_log_in.B_D_Pin_Code">
+
+
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:id="@+id/ll_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/textinputborder"
+                android:id="@+id/edit4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="*"
+                android:inputType="number"
+                android:maxLength="1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/textinputborder"
+                android:id="@+id/edit2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="*"
+                android:inputType="number"
+                android:maxLength="1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/textinputborder"
+                android:id="@+id/edit1"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="*"
+                android:inputType="number"
+                android:maxLength="1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:background="@drawable/textinputborder"
+                android:id="@+id/edit3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:hint="*"
+                android:inputType="number"
+                android:maxLength="1" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:padding="3dp"
+        android:background="#FFFFFF"
+        android:id="@+id/instruction_text"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_container"
+        android:layout_centerHorizontal="true"
+        android:text="Please Enter your Pin code" />
+
+    <RelativeLayout
+        android:layout_alignTop="@+id/instruction_text"
+        android:layout_alignBottom="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_reset"
+            android:text="Reset PIN"
+            android:textSize="8dp"
+            android:layout_centerInParent="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/holo_green_dark"
+        android:src="@drawable/thumb"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

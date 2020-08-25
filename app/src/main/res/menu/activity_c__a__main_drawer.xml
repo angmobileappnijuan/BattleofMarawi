@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/messageOfCGPA"
+            android:icon="@drawable/army_logo_icon"
+            android:title="Message of the CGPA" />
+        <item
+            android:id="@+id/messageOfDirector"
+            android:icon="@drawable/orc_logo_icon"
+            android:title="Message of the Director ORCPA" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_getAccess"
+                android:icon="@drawable/get_access_icon"
+                android:title="Get Access" />
+            <item
+                android:id="@+id/visitFacebook"
+                android:icon="@drawable/page_icon"
+                android:title="Visit Facebook Page" />
+            <item
+                android:id="@+id/nav_contactUs"
+                android:icon="@drawable/messenger_icon"
+                android:title="Contact us" />
+        </menu>
+    </item>
+
+    <item android:title="Multimedia">
+        <menu>
+            <item
+                android:id="@+id/video"
+                android:icon="@drawable/video_icon"
+                android:title="Watch Video" />
+
+        </menu>
+    </item>
+
+    <item android:title="About Us">
+        <menu>
+            <!--<item-->
+                <!--android:id="@+id/about_book"-->
+                <!--android:icon="@drawable/about_the_book_icon"-->
+                <!--android:title="About the Book" />-->
+            <item
+                android:id="@+id/about_orc"
+                android:icon="@drawable/orc_logo_icon"
+                android:title="About ORCPA" />
+            <item
+                android:id="@+id/about_developer"
+                android:icon="@drawable/about_developer_icon"
+                android:title="About Developer" />
+        </menu>
+    </item>
+
+    <item android:title="Disclaimer">
+        <menu>
+            <item
+                android:id="@+id/disclaimer"
+                android:icon="@drawable/disclaimer_icon"
+                android:title="Disclaimer" />
+
+        </menu>
+    </item>
+
+</menu>
